@@ -8,5 +8,4 @@ before_install:
 
 script:
  - qmake -project
- - qmake AlgoGenetique.pro 
  - make CXXFLAGS+=" -std=c++11" LFLAGS+=" -std=c++11"
