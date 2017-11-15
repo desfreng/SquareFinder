@@ -8,4 +8,4 @@ before_install:
 
 script:
  - qmake SquareFinder.pro
- - make CXXFLAGS+=" -std=c++11" LFLAGS+=" -std=c++11"
+ - make CXXFLAGS+=" -std=c++11 -fPIC" LFLAGS+=" -std=c++11 -fPIC"
